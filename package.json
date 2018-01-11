@@ -1,0 +1,13 @@
+{
+  "name": "dev-challenges",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Robin",
+  "license": "MIT",
+  "devDependencies": {
+    "eslint": "^4.13.1",
+    "eslint-config-ao": "^0.0.1-rc.3",
+    "stylelint-order": "^0.8.0",
+    "stylelint-preset-ao": "^0.0.1-rc.2"
+  }
+}
