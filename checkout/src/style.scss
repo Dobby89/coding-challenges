@@ -1,0 +1,17 @@
+@tailwind preflight;
+@tailwind components;
+@tailwind utilities;
+
+// Accessible hidden content:
+// See: https://github.com/h5bp/html5-boilerplate/issues/1985
+.visuallyhidden {
+	position: absolute;
+	width: 1px;
+	height: auto;
+	margin: 0;
+	padding: 0;
+	border: 0;
+	overflow: hidden;
+	clip: rect(0 0 0 0);
+	white-space: nowrap;
+}
