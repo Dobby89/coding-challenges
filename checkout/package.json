@@ -5,7 +5,7 @@
     "dev": "cross-env NODE_ENV=development parcel index.html --open",
     "prod": "cross-env NODE_ENV=production parcel build index.html --no-minify --public-url ./"
   },
-  "assetsPath": "assets",
+  "assetsPath": "src",
   "dependencies": {
     "autoprefixer": "^7.2.1",
     "babel-preset-react-app": "^3.1.0",
