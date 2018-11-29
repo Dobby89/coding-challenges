@@ -1,18 +1,25 @@
 {
-  "name": "tailwind-parcel",
-  "version": "1.0.0",
-  "main": "index.js",
+  "name": "parcel-react-example",
   "license": "MIT",
   "scripts": {
-    "start": "parcel index.html --open",
-    "build": "parcel build index.html"
+    "dev": "cross-env NODE_ENV=development parcel index.html --open",
+    "prod": "cross-env NODE_ENV=production parcel build index.html --no-minify --public-url ./"
+  },
+  "assetsPath": "assets",
+  "dependencies": {
+    "autoprefixer": "^7.2.1",
+    "babel-preset-react-app": "^3.1.0",
+    "classnames": "^2.2.6",
+    "informed": "^1.10.9",
+    "node-sass": "^4.10.0",
+    "parcel-bundler": "latest",
+    "parcel-plugin-asset-copier": "^1.0.0",
+    "react": "^16.2.0",
+    "react-dom": "^16.6.3",
+    "tailwindcss": "^0.7.2"
   },
   "devDependencies": {
-    "autoprefixer": "^9.1.1",
-    "postcss": "^7.0.2",
-    "tailwindcss": "^0.6.6"
-  },
-  "dependencies": {
-    "node-sass": "^4.9.4"
+    "babel-core": "^6.26.3",
+    "cross-env": "^5.1.1"
   }
 }
